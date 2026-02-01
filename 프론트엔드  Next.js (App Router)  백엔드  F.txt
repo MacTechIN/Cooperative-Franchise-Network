@@ -1,4 +1,4 @@
-프론트엔드 : Next.js (App Router) / 백엔드 : Firebase / Supabase 결합 방식  가장 효율적		
+프론트엔드 : Next.js (App Router) / 백엔드 : Firebase (Single Backend) 방식 최적화 완료
 Next.js 선정 이유: 다단계 메뉴 구현에 최적: Nested Layouts 기능을 통해 메인-서브-서브 메뉴 구조를 컴포넌트 단위로 관리하기 매우 쉽움	
 하이브리드 렌더링: 1,000명 접속 시 속도를 위해 정적 페이지(SSG)와 동적 데이터(SSR)를 자유롭게 섞어 쓸 수 있음	
 REST API의 적합성: * 중소 규모에서 GraphQL은 오버엔지니어링일 수 있음  REST는 구조가 단순하고 디버깅이 쉬워 유지보수에 유리	
